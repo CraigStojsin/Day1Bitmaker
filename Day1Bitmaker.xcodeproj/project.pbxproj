@@ -14,6 +14,7 @@
 		39DE4C631AD3106E00532938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DE4C621AD3106E00532938 /* Images.xcassets */; };
 		39DE4C661AD3106E00532938 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DE4C641AD3106E00532938 /* LaunchScreen.xib */; };
 		39DE4C721AD3106E00532938 /* Day1BitmakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE4C711AD3106E00532938 /* Day1BitmakerTests.m */; };
+		39DE4C7D1AD31A5D00532938 /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE4C7C1AD31A5D00532938 /* Feature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		39DE4C6B1AD3106E00532938 /* Day1BitmakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day1BitmakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39DE4C701AD3106E00532938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39DE4C711AD3106E00532938 /* Day1BitmakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day1BitmakerTests.m; sourceTree = "<group>"; };
+		39DE4C7B1AD31A5D00532938 /* Feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Feature.h; path = Day1Bitmaker/Feature.h; sourceTree = "<group>"; };
+		39DE4C7C1AD31A5D00532938 /* Feature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Feature.m; path = Day1Bitmaker/Feature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		39DE4C491AD3106E00532938 = {
 			isa = PBXGroup;
 			children = (
+				39DE4C7E1AD31A7600532938 /* Model */,
 				39DE4C541AD3106E00532938 /* Day1Bitmaker */,
 				39DE4C6E1AD3106E00532938 /* Day1BitmakerTests */,
 				39DE4C531AD3106E00532938 /* Products */,
@@ -117,6 +121,15 @@
 				39DE4C701AD3106E00532938 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39DE4C7E1AD31A7600532938 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39DE4C7B1AD31A5D00532938 /* Feature.h */,
+				39DE4C7C1AD31A5D00532938 /* Feature.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				39DE4C5E1AD3106E00532938 /* ViewController.m in Sources */,
 				39DE4C5B1AD3106E00532938 /* AppDelegate.m in Sources */,
 				39DE4C581AD3106E00532938 /* main.m in Sources */,
+				39DE4C7D1AD31A5D00532938 /* Feature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
